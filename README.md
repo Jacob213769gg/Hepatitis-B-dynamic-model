@@ -9,7 +9,7 @@ doi: 10.1038/s41598-023-39582
 $$
 \Large
 \begin{cases}
-\frac{dS}{dt} &= \{1 - \eta B\}\Lambda - (\nu + \mu_0)S - (A + \gamma B)\alpha S, \\
+\frac{dS}{dt} &= (1 - \eta B)\Lambda - (\nu + \mu_0)S - (A + \gamma B)\alpha S, \\
 \frac{dA}{dt} &= \alpha SA + \gamma\alpha SB - (\gamma_1 + \beta + \mu_0)A, \\
 \frac{dB}{dt} &= \beta A - (\mu_1 + \gamma_2 + \mu_0 - \eta\Lambda)B, \\
 \frac{dR}{dt} &= \gamma_2 B - \mu_0 R + \gamma_1 A + \nu S. 
