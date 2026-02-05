@@ -33,6 +33,8 @@ $\gamma = 0.16, \quad \gamma_1 = 0.05, \quad \beta = 0.23, \quad \gamma_2 = 0.00
 
 $S_0 = 80, \quad A_0 = 10, \quad B_0 = 5, \quad R_0 = 5$
 
+![Deterministic-Model](https://github.com/Abohlool/Hepatitis-B-dynamic-model/blob/main/plots/Deterministic.png)
+
 ## Controlled Mode
 
 $$
@@ -53,6 +55,18 @@ $$
 0 \le u_1(t), u_2(t) \le 1
 $$
 
+w1, w2, w3, w4 = 0.10, 0.6, 0.001, 0.9
+$w_1 = 0.1, \quad w_2 = 0.6, \quad w_3 = 0.001, \quad w_4 = 0.9$
+
+![Controlled-Model](https://github.com/Abohlool/Hepatitis-B-dynamic-model/blob/main/plots/Controlled.png)
+
+## Controlled vs Uncontrolled (Deterministic)
+
+![Controlled-vs-Deterministic-model](https://github.com/Abohlool/Hepatitis-B-dynamic-model/blob/main/plots/Deterministic-vs-Controlled.png)
+
+## Control Functions
+
+![Controll-Functions-over-time](https://github.com/Abohlool/Hepatitis-B-dynamic-model/blob/main/plots/Control-functions.png)
 
 ## Reproductive Number
 
@@ -61,11 +75,4 @@ $$
 R_0 = \frac{\alpha\Lambda (\gamma(\mu_0 + \gamma_1 + \beta + u_2) + \beta)}{(\mu_0 + u_1)(\mu_0 + \gamma_1 + \beta + u_2)(\mu_0 + \mu_1 + \gamma_2 + u_2 - \eta\Lambda)}
 $$
 
-
-
-
-
-
-
-
-
+![R_0-over-controls](https://github.com/Abohlool/Hepatitis-B-dynamic-model/blob/main/plots/R_0-control.png)
